@@ -702,9 +702,8 @@ class template
 				$home = '<a href="' . utils::genURL($link) . '">' . $home_word . '</a>';
 
 				return ($no_one)
-					? '<span id="homelink">' . $home . '</span><span class="pos_sep">'
-						. utils::tplProtect($separator) . '</span>'
-					: '<span id="homelink" class="current">' . $home . '</span>';
+					? '<li class="breadcrumb-item">' . $home . '</li>'
+					: '<li class="breadcrumb-item">' . $home . '</li>';
 
 			// Parents de l'objet courant.
 			case 'parents' :
@@ -726,10 +725,9 @@ class template
 						$pos_sep_last = ($n == count($parents) - 1)
 							? ' pos_sep_last'
 							: '';
-						$p .= '<a href="' . $link . '">'
+						$p .= '<li class="breadcrumb-item"><a href="' . $link . '">'
 							. utils::tplProtect(utils::getLocale($i['cat_name']))
-							. '</a><span class="pos_sep' . $pos_sep_last . '">'
-							. utils::tplProtect($separator) . '</span>';
+							. '</a></li>';
 						$n++;
 					}
 				}
@@ -749,7 +747,7 @@ class template
 					$current = ($image && utils::$config['images_direct_link'])
 						? $name
 						: sprintf($link, $name);
-					return '<span class="current">' . $current . '</span>';
+					return '<li class="breadcrumb-item">' . $current . '</li>';
 				}
 				break;
 
