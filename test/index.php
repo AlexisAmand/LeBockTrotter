@@ -45,7 +45,7 @@
   </head>
   <body>
     
-<?php include "include/header.inc.php"; ?>
+<?php include "../include/header.inc.php"; ?>
 
 <main  style="background-color:#fcf8ec;">
 
@@ -53,25 +53,80 @@
 
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Le Bock Trotter</h1>
-        <p class="lead text-muted">Ce site vous présente ma collection de sous-bocks que certains nomment aussi ronds à bière ou encore sous-verres. L'origine des sous-bocks cartonnés que nous connaissons aujourd'hui remonte à la fin du XIXe siècle. Ils furent probablement inventés en Allemagne, terre brassicole par excellence quand en 1880, l'entreprise d'imprimerie et de cartonnage Friederich Horn de Buckau, près de Magdebourg, a découpé des dessous de verre en carton sur lesquels elle imprima divers motifs.</p>
-      </div>
-    </div>
-
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Cervalobélophilie</h1>
-        <p class="lead text-muted">La cervalobélophilie désigne le fait de collectionner les étiquettes de bière et/ou les sous-bocks. Les différentes catégories de ma collection sont accessibles via le menu (en haut de la page). Les sous-bocks y sont triés par pays et par brasserie.</p>
+        <h1 class="fw-light">Rubrique de test</h1>
       </div>
     </div>
 
   </section>
 
+  <div class="album py-5">
+    <div class="container">
+
+    <div class="row row-cols-3 row-cols-sm-4 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
+
+    <?php
+    
+    $dir    = './';
+    $cdir = scandir($dir);
+    $i = 0;
+                        
+    /* On compte le nombre de fichiers dans le dossier et on enléve  3 (. et ..) ainsi que le fichier index.php */
+    // $nb = (count($cdir) - 3) / 4;
+    // var_dump($nb);
+
+    foreach ($cdir as $key => $value)
+        {                           
+            /* On récup les infos sur le fichier */
+            $info = new SplFileInfo($value);
+
+            /* On regarde si le fichier n'est pas ., .. ou un fichier php */
+            if ((!in_array($value,array(".","..")) and ($info->getExtension() != 'php')))
+                {
+                $i++; 
+
+                /* Récup du nom de fichier sans son extension pour la légende */
+                $info->getBasename('.jpg'); 
+                $nomDuFichier  = str_replace("-", " ", $info->getBasename('.jpg'));
+                
+        ?>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img src="<?php echo $value; ?>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center" style="font-variant:small-caps;text-transform: capitalize;"><?php echo $nomDuFichier; ?></p>
+                    </div>
+                    </div>
+                </div>
+          
+          <?php    
+
+                }
+
+            /*
+            if ($i == ceil($nb))
+                {
+                echo '</div>';
+                echo '<div class="col-md-4 mt-3 col-lg-3">';
+                $i = 0;
+                }                              
+            */
+        }
+
+    echo '</div>';
+
+    ?>
+
+      </div>
+
+    </div>
+  </div>
+
 </main>
 
-<?php include "include/footer.inc.php"; ?>
+<?php include "../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   
+
   </body>
 </html>

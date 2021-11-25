@@ -1,0 +1,23 @@
+header h1 {
+                font: normal normal 60px Unkempt;
+                color: #b5cb31;
+                text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+            }
+
+            h2, .card-title {
+                font: normal bold 20px Coming Soon;
+                color: #737f41;
+            }
+
+            h2 {
+                font: normal normal 40px Unkempt;
+            }
+
+            footer {
+                background-color: #94992d;
+                text-align: center;
+            }
+
+            ul {
+                color: #64462e;
+            }
