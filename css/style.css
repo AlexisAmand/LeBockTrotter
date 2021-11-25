@@ -1,23 +1,93 @@
-header h1 {
-                font: normal normal 60px Unkempt;
-                color: #b5cb31;
-                text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
-            }
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    }
 
-            h2, .card-title {
-                font: normal bold 20px Coming Soon;
-                color: #737f41;
-            }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 
-            h2 {
-                font: normal normal 40px Unkempt;
-            }
+main {
+    background-color:#fcf8ec;
+}
 
-            footer {
-                background-color: #94992d;
-                text-align: center;
-            }
+.card-text {
+   font-variant:small-caps;
+   text-transform: capitalize;
+}
 
-            ul {
-                color: #64462e;
-            }
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.siteTitle {
+    font: normal normal 2em Unkempt;
+    color: #b5cb31;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+/* -------------------- */
+/* Colonisation du menu */
+/* -------------------- */
+
+@media (max-width: 576px) {
+
+    .colonnes {
+      column-count: 1;
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 768px) {
+
+    .colonnes {
+      column-count: 2;
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    .colonnes {
+      column-count: 3;
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+    }
+  }
+
+  footer a:link {
+    text-decoration: underline;
+    text-decoration-color:6c757d;
+    color: #6c757d!important;
+}
+
+footer a:visited {
+    text-decoration: underline;
+    text-decoration-color:6c757d;
+    color: #6c757d!important;
+}
+
+footer a:hover {
+    text-decoration: none;
+    text-decoration-color:6c757d;
+    color: #6c757d!important;
+}
+
+h4::first-letter {
+    color:#b5cb31;
+}

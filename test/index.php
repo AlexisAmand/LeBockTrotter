@@ -1,59 +1,50 @@
 
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="fr">
+
+<head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter · Album example · Bootstrap v5.1</title>
-    <meta name="description" content="">
+    <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
+    <meta name="description" content=" ">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
-    <meta name="theme-color" content="#7952b3">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Unkempt&display=swap" rel="stylesheet">
 
+    <!-- CSS perso -->
+    <link href="/css/style.css" rel="stylesheet">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+     
+    <!-- CSS de Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+</head>
 
-    
-  </head>
-  <body>
+<body>
     
 <?php include "../include/header.inc.php"; ?>
 
-<main  style="background-color:#fcf8ec;">
+<main>
 
-  <section class="py-5 text-center container">
+  <section class="py-2 text-center container">
 
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Rubrique de test</h1>
+        <h1 class="fw-light">Brasserie Trucbidule</h1>
+        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem at blanditiis earum eius velit recusandae consectetur iste sit quidem aliquam, sequi tempore obcaecati et non. Voluptatem nostrum omnis repellendus.</p>
       </div>
     </div>
 
@@ -70,10 +61,6 @@
     $cdir = scandir($dir);
     $i = 0;
                         
-    /* On compte le nombre de fichiers dans le dossier et on enléve  3 (. et ..) ainsi que le fichier index.php */
-    // $nb = (count($cdir) - 3) / 4;
-    // var_dump($nb);
-
     foreach ($cdir as $key => $value)
         {                           
             /* On récup les infos sur le fichier */
@@ -88,29 +75,24 @@
                 $info->getBasename('.jpg'); 
                 $nomDuFichier  = str_replace("-", " ", $info->getBasename('.jpg'));
                 
-        ?>
+    ?>
 
                 <div class="col">
                     <div class="card shadow-sm">
-                    <img src="<?php echo $value; ?>" class="card-img-top" alt="...">
+                    <a href="<?php echo $value; ?>"
+                       data-fancybox="gallery"
+                       data-caption="Optional caption">
+                    <img src="<?php echo $value; ?>" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                        <p class="card-text text-center" style="font-variant:small-caps;text-transform: capitalize;"><?php echo $nomDuFichier; ?></p>
+                        <p class="card-text text-center"><?php echo $nomDuFichier; ?></p>
                     </div>
                     </div>
                 </div>
           
-          <?php    
+    <?php    
 
                 }
 
-            /*
-            if ($i == ceil($nb))
-                {
-                echo '</div>';
-                echo '<div class="col-md-4 mt-3 col-lg-3">';
-                $i = 0;
-                }                              
-            */
         }
 
     echo '</div>';
@@ -128,5 +110,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script>
+    //  JavaScript will go here
+</script>
+
+</body>
 </html>
