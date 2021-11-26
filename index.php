@@ -11,8 +11,6 @@
     <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
     <meta name="description" content=" ">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
-
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -26,6 +24,9 @@
     
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
 
 </head>
 
