@@ -1,3 +1,31 @@
+<?php
+    
+/* On compte de nombres d'images envoyées dans albums pour l'afficher tout à l'heure */    
+
+$dir = './albums/';
+$countImage = 0;
+
+$iteratorAlbum = new DirectoryIterator($dir);
+
+foreach ($iteratorAlbum as $fileinfoAlbum) 
+  {
+  if (($fileinfoAlbum->isDir()) and (!in_array($fileinfoAlbum,array(".","..")))) 
+    {
+
+    $iteratorBrasserie = new DirectoryIterator($dir.$fileinfoAlbum);
+        
+    foreach ($iteratorBrasserie as $fileinfoBrasserie)
+      {
+      if ($fileinfoBrasserie->getExtension() == "jpg")
+        {
+        $countImage++;
+        }
+      }
+
+    }
+  }
+
+?>
 
 <!doctype html>
 <html lang="fr">
@@ -38,14 +66,14 @@
 
   <section class="py-5 text-center container">
 
-    <div class="row py-lg-5">
+    <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Edito</h1>
-        <p class="lead text-muted">Ce site vous présente ma collection de sous-bocks que certains nomment aussi ronds à bière ou encore sous-verres. L'origine des sous-bocks cartonnés que nous connaissons aujourd'hui remonte à la fin du XIXe siècle. Ils furent probablement inventés en Allemagne, terre brassicole par excellence quand en 1880, l'entreprise d'imprimerie et de cartonnage Friederich Horn de Buckau, près de Magdebourg, a découpé des dessous de verre en carton sur lesquels elle imprima divers motifs.</p>
+        <p class="lead text-muted">Ce site vous présente ma collection de sous-bocks, que certains nomment aussi ronds à bière ou encore sous-verres, et autres objets de brasserie à travers <?php echo $countImage; ?> photos. L'origine des sous-bocks cartonnés que nous connaissons aujourd'hui remonte à la fin du XIXe siècle. Ils furent probablement inventés en Allemagne, terre brassicole par excellence quand en 1880, l'entreprise d'imprimerie et de cartonnage Friederich Horn de Buckau, près de Magdebourg, a découpé des dessous de verre en carton sur lesquels elle imprima divers motifs.</p>
       </div>
     </div>
 
-    <div class="row py-lg-5">
+    <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Cervalobélophilie</h1>
         <p class="lead text-muted">La cervalobélophilie désigne le fait de collectionner les étiquettes de bière et/ou les sous-bocks. Les différentes catégories de ma collection sont accessibles via le menu (en haut de la page). Les sous-bocks y sont triés par pays et par brasserie.</p>
