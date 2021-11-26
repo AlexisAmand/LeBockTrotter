@@ -53,7 +53,7 @@
   <div class="album py-5">
     <div class="container">
 
-    <div class="row row-cols-3 row-cols-sm-4 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
+    <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
 
     <?php
     
@@ -79,6 +79,7 @@
                 $input = array("-16deg", "-12deg", "-8deg","-4deg", "4deg","8deg", "12deg", "16deg");
                 $rand_keys = array_rand($input, 1);
                 
+                /* affichage d'une vignette */
                 ?>
 
                 <div class="col">

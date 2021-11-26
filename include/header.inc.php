@@ -1,5 +1,5 @@
 <header>
-  <div class="collapse" id="navbarHeader"  style="background-color:#64462e">
+  <div class="collapse" id="navbarHeader">
     <div class="container">
       <div class="row">
         <div class="col-12 p-2 colonnes">
@@ -126,7 +126,7 @@
       </div>
     </div>
   </div>
-  <div class="navbar shadow-sm navbar-dark" style="background-color:#64462e">
+  <div class="navbar shadow-sm navbar-dark">
     <div class="container">
       <a href="/index.php" class="navbar-brand d-flex align-items-center">
         <!--img src="/img/beer-icon.png" width="20" height="20" class="me-2"-->
