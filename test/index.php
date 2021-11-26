@@ -31,6 +31,9 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
+    <!-- Matomo -->
+    <?php include "../include/matomo.inc.php"; ?>
+
 </head>
 
 <body>
