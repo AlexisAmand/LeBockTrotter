@@ -75,14 +75,18 @@
                 $info->getBasename('.jpg'); 
                 $nomDuFichier  = str_replace("-", " ", $info->getBasename('.jpg'));
                 
-    ?>
+                /* Angle aléatoire pour faire une rotation de l'image */
+                $input = array("-16deg", "-12deg", "-8deg","-4deg", "4deg","8deg", "12deg", "16deg");
+                $rand_keys = array_rand($input, 1);
+                
+                ?>
 
                 <div class="col">
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" style="<?php echo 'transform: rotate('.$input[$rand_keys].');' ?>">
                     <a href="<?php echo $value; ?>"
                        data-fancybox="gallery"
                        data-caption="Optional caption">
-                    <img src="<?php echo $value; ?>" class="card-img-top" alt="..."></a>
+                    <img src="<?php echo $value; ?>" class="card-img-top" alt=" "></a>
                     <div class="card-body">
                         <p class="card-text text-center"><?php echo $nomDuFichier; ?></p>
                     </div>
