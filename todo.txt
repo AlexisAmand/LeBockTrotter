@@ -1,0 +1,10 @@
+Footer
+------
+
+- collé en bas si peu d'image
+
+Galerie
+-------
+
+- data-caption : la légende n'est pas bonne, il faudrait voir pour mettre des majuscules
+

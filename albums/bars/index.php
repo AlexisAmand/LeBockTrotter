@@ -31,14 +31,14 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-    <!-- Matomo -->
-    <?php include "../include/matomo.inc.php"; ?>
+    <!-- Matomo -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    <?php include "../../include/matomo.inc.php"; ?>
 
 </head>
-
+                                                                                                                                                                                           
 <body>
     
-<?php include "../include/header.inc.php"; ?>
+<?php include "../../include/header.inc.php"; ?>
 
 <main>
 
@@ -46,8 +46,8 @@
 
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Brasserie Trucbidule</h1>
-        <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem at blanditiis earum eius velit recusandae consectetur iste sit quidem aliquam, sequi tempore obcaecati et non. Voluptatem nostrum omnis repellendus.</p>
+        <h1 class="fw-light">Bars et Restos</h1>
+        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
       </div>
     </div>
 
@@ -91,10 +91,10 @@
           <div class="card shadow-sm" style="<?php echo 'transform: rotate('.$input[$rand_keys].');' ?>">
           <a href="<?php echo $value; ?>"
               data-fancybox="gallery"
-              data-caption="Optional caption">
+              data-caption="<?php echo ucwords($nomDuFichier); ?>">
           <img src="<?php echo $value; ?>" class="card-img-top" alt=" "></a>
           <div class="card-body">
-              <p class="card-text text-center"><?php echo $nomDuFichier; ?></p>
+              <p class="card-text text-center"><?php echo $nomDuFichier ; ?></p>
           </div>
           </div>
       </div>
@@ -115,7 +115,7 @@
 
 </main>
 
-<?php include "../include/footer.inc.php"; ?>
+<?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
