@@ -7,6 +7,7 @@
         <h4 class="text-white">Allemagne</h4>
           <ul class="list-unstyled">
             <li><a href="/albums/bitburger-brauerei/index.php" class="text-white">Bitburger Brauerei</a></li>
+            <li><a href="/albums/real/index.php" class="text-white">Supermarché Real</a></li>
           </ul>
 
           <hr class="py-0 my-4 text-white me-5">
@@ -17,7 +18,6 @@
           </ul>
 
           <hr class="py-0 my-4 text-white me-5">
-  
 
         <h4 class="text-white">Autriche</h4>
           <ul class="list-unstyled">
@@ -43,6 +43,7 @@
             <li><a href="/albums/brasserie_de_halve_maan/index.php" class="text-white">Brasserie de Halve Maan</a></li>
             <li><a href="/albums/brasserie-de-l'abbaye-des-rocs/index.php" class="text-white">Brasserie de l'Abbaye des Rocs</a></li>
             <li><a href="/albums/brasserie-de-silly/index.php" class="text-white">Brasserie de Silly</a></li>
+            <li><a href="/albums/brasserie-des-fagnes/index.php" class="text-white">Brasserie des Fagnes</a></li>
             <li><a href="/albums/brasserie_d'orval/index.php" class="text-white">Brasserie d'Orval</a></li> 
             <li><a href="/albums/brasserie-du-bocq/index.php" class="text-white">Brasserie du Bocq</a></li>
             <li><a href="/albums/brasserie-dubuisson/index.php" class="text-white">Brasserie Dubuisson</a></li>
@@ -98,7 +99,10 @@
             <li><a href="/albums/brasseries-kronenbourg/index.php" class="text-white">Brasseries Kronenbourg</a></li>
             <li><a href="/albums/brasserie-lamadelon/index.php" class="text-white">Brasserie La Madelon</a></li>
             <li><a href="/albums/brasserie-licorne/index.php" class="text-white">Brasserie Licorne</a></li>
-            <li><a href="/albums/brasserie-de-saint-omer/index.php" class="text-white">Brasserie Saint-Omer</a></li>                    
+            <li><a href="/albums/brasserie-de-saint-omer/index.php" class="text-white">Brasserie Saint-Omer</a></li>     
+            <li><a href="/albums/moet-hennessy/index.php" class="text-white">Moët Hennessy</a></li> 
+            <li><a href="/albums/orangina-suntory-france/index.php" class="text-white">Orangina Suntory France </a></li>              
+                          
           </ul>
 
         <h4 class="text-white">Irlande</h4>
@@ -119,6 +123,14 @@
           </ul>
 
           <hr class="py-0 my-4 text-white me-5">
+
+        <h4 class="text-white">Royaume-Uni</h4>
+          <ul class="list-unstyled">
+            <li><a href="/albums/benson-hedges/index.php" class="text-white">Benson & Hedges</a></li>
+          </ul>
+
+          <hr class="py-0 my-4 text-white me-5">
+          
 
         <h4 class="text-white">Divers</h4>
           <ul class="list-unstyled">

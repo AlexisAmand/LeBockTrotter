@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" class="h-100">
+<?php include '../../include/fonctions.inc.php'; ?>
 
 <head>
 
@@ -8,8 +9,8 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
-    <meta name="description" content=" ">
+    <title>Le Bock Trotter · Brasserie d'Achouffe</title>
+    <meta name="description" content="collection de sous-bocks et d'objets de brasserie dédiés à Brasserie d'Achouffe">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -36,11 +37,11 @@
 
 </head>
                                                                                                                                                                                            
-<body>
+<body class="d-flex flex-column h-100">
     
 <?php include "../../include/header.inc.php"; ?>
 
-<main>
+<main class="flex-shrink-0">
 
   <section class="py-2 text-center container">
 
@@ -59,53 +60,8 @@
       <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
 
       <?php
-      
-      $dir    = './';
-      $cdir = scandir($dir);
-      $i = 0;
 
-      $iteratorAlbum = new DirectoryIterator($dir);
-      foreach ($iteratorAlbum as $value) 
-        {
-                            
-        /* On récup les infos sur le fichier */
-        $info = new SplFileInfo($value);
-
-        /* On regarde si le fichier n'est pas ., .. ou un fichier php */
-        if ((!in_array($value,array(".","..")) and ($info->getExtension() != 'php')))
-          {
-          $i++; 
-
-          /* Récup du nom de fichier sans son extension pour la légende */
-          $info->getBasename('.jpg'); 
-          $nomDuFichier  = str_replace("-", " ", $info->getBasename('.jpg'));
-          
-          /* Angle aléatoire pour faire une rotation de l'image */
-          $input = array("-16deg", "-12deg", "-8deg","-4deg", "4deg","8deg", "12deg", "16deg");
-          $rand_keys = array_rand($input, 1);
-          
-          /* affichage d'une vignette */
-      ?>
-
-      <div class="col">
-          <div class="card shadow-sm" style="<?php echo 'transform: rotate('.$input[$rand_keys].');' ?>">
-          <a href="<?php echo $value; ?>"
-              data-fancybox="gallery"
-              data-caption="<?php echo ucwords($nomDuFichier); ?>">
-          <img src="<?php echo $value; ?>" class="card-img-top" alt=" "></a>
-          <div class="card-body">
-              <p class="card-text text-center"><?php echo $nomDuFichier ; ?></p>
-          </div>
-          </div>
-      </div>
-            
-      <?php    
-
-          }
-
-        }
-
-      echo '</div>';
+      afficheCollection();
 
       ?>
 
@@ -115,6 +71,7 @@
 
 </main>
 
+<?php include "../../include/top.inc.php"; ?>
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

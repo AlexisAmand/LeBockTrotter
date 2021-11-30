@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" class="h-100">
+<?php include '../../include/fonctions.inc.php'; ?>
 
 <head>
 
@@ -8,8 +9,8 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter ·  Formulaire de contact · Le site d'un cervalobélophile</title>
-    <meta name="description" content=" ">
+    <title>Le Bock Trotter · Formulaire de contact · Le site d'un cervalobélophile</title>
+    <meta name="description" content="collection de sous-bocks et d'objets de brasserie dédiés à  ">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -36,13 +37,13 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 
-<?php include "./include/header.inc.php"; ?>
+<main class="flex-shrink-0">
 
-<main>
+  <?php include "./include/header.inc.php"; ?>
 
-  <section class="py-2 text-center container">
+  <section class="py-5 text-center container">
 
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
@@ -50,21 +51,22 @@
 
             if (isset($_POST['nom']) and isset($_POST['courriel']) and isset($_POST['message']))
                 {
-                echo '<h1 class="fw-light">Message envoyé</h1>';
+                echo '<h1 class="fw-light mb-5">Message envoyé</h1>';
                 echo '<p class="lead text-muted">Votre message a bien été envoyé !<br />';
-                echo 'Je vous répondrais le plus vite possible</p>';
+                echo 'Je vous répondrai le plus vite possible</p>';
 
+                // Destinataire du message
                 $to  = 'alexis.amand@gmail.com, '.$_POST['courriel'];
 
-                // Sujet
+                // Sujet du message à envoyer
                 $subject = 'Le Bock Trotter';
 
-                // message
+                // message à envoyer
                 $message = "Nom : ".$_POST['nom']."<br />"
                 ."E-mail : ".$_POST['courriel']."<br />"
                 ."Message : "."<br />".$_POST['message']."<br />";
 
-                // Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
+                // En-tête du message
                 $headers = 'MIME-Version: 1.0'."\n";
                 $headers .= 'Content-type: text/html; charset=utf-8'."\n";
                 $headers .='From: "Message de Histoires de Poilus"<'.$_POST['courriel'].'>'."\n";
@@ -80,8 +82,14 @@
                 }
             else
                 {
-                header('Location: http://lebocktrotter.test/index.php');                    
-                exit();
+                /* redirection vers index.php */
+            ?>
+
+            <script>
+              document.location.href="http://lebocktrotter.test"; 
+            </script>
+
+            <?php
                 }
             ?>
 
@@ -92,7 +100,7 @@
 
 </main>
 
-<?php include "./include/footer2.inc.php"; ?>
+<?php include "./include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
@@ -103,5 +111,3 @@
 
 </body>
 </html>
-
-

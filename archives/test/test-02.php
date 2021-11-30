@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-100">
+<?php include '../../include/fonctions.inc.php'; ?>
 
     <head>
         <meta charset="UTF-8">
