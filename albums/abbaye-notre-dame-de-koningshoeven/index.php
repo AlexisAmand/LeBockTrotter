@@ -10,7 +10,7 @@
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Abbaye Notre-Dame de Koningshoeven</title>
-    <meta name="description" content="collection de sous-bocks et d'objets de brasserie dédiés à l'Abbaye Notre-Dame de Koningshoeven">
+    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à l'Abbaye Notre-Dame de Koningshoeven">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -32,7 +32,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-    <!-- Matomo -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>

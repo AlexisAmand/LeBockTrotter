@@ -4,7 +4,7 @@
 
     <div class="row">
         <p class="text-end my-3 backToTop">
-            <a href="#"><i class="bi bi-arrow-bar-up me-1"></i>Retour en haut</a>
+            <a href="#" title="retour en haut de la page"><i class="bi bi-arrow-bar-up me-1"></i>Retour en haut</a>
         </p>
     </div>
 

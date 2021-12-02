@@ -10,7 +10,7 @@
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Brasserie d'Orval</title>
-    <meta name="description" content="collection de sous-bocks et d'objets de brasserie dédiés à Brasserie d'Orval">
+    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à Brasserie d'Orval">
     
 
     <!-- Bootstrap core CSS -->
@@ -33,7 +33,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-    <!-- Matomo -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>

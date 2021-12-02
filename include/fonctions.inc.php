@@ -1,6 +1,6 @@
 <?php
 
-/* Cette fonction parcours le dossier parent pour afficher les images qu'il contient sous la forme d'une galerie */
+/* Cette fonction parcourt le dossier parent pour afficher les images qu'il contient sous la forme d'une galerie */
 
 function afficheCollection() 
     {
@@ -16,7 +16,7 @@ function afficheCollection()
         $info = new SplFileInfo($value);
 
         /* On regarde si le fichier n'est pas ., .. ou un fichier php */
-        if ((!in_array($value,array(".","..")) and ($info->getExtension() != 'php')))
+        if ((!in_array($value,array(".","..", "thumbs")) and ($info->getExtension() == 'jpg')))
             {
             $i++; 
 
@@ -25,25 +25,25 @@ function afficheCollection()
             $nomDuFichier  = str_replace("-", " ", $info->getBasename('.jpg'));
         
             /* Angle aléatoire pour faire une rotation de l'image */
-            $input = array("-16deg", "-12deg", "-8deg","-4deg", "4deg","8deg", "12deg", "16deg");
+            $input = array("-16deg", "-12deg", "-8deg","-4deg", "0deg", "4deg","8deg", "12deg", "16deg");
             $rand_keys = array_rand($input, 1);
             
-            /* affichage d'une vignette */
-?>
+            /* affichage d'une vignette et sa légende */
+            ?>
 
-    <div class="col">
-        <div class="card shadow-sm" style="<?php echo 'transform: rotate('.$input[$rand_keys].');' ?>">
-        <a href="<?php echo $value; ?>"
-            data-fancybox="gallery"
-            data-caption="<?php echo ucwords($nomDuFichier); ?>">
-        <img src="<?php echo $value; ?>" class="card-img-top" alt=" "></a>
-        <div class="card-body">
-            <p class="card-text text-center"><?php echo $nomDuFichier ; ?></p>
-        </div>
-        </div>
-    </div>
+            <div class="col">
+                <div class="card shadow-sm" style="<?php echo 'transform: rotate('.$input[$rand_keys].');' ?>">
+                <a href="<?php echo $value; ?>"
+                    data-fancybox="gallery"
+                    data-caption="<?php echo ucwords($nomDuFichier); ?>">
+                <img src="thumbs/<?php echo $value; ?>" class="card-img-top" alt=" "></a>
+                <div class="card-body">
+                    <p class="card-text text-center"><?php echo $nomDuFichier ; ?></p>
+                </div>
+                </div>
+            </div>
             
-<?php    
+            <?php    
 
             }
 

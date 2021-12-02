@@ -13,7 +13,7 @@
             <a href="/biblio.php" title=" ">Bibliographie</a><br />
             <a href="/mentions-legales.php" title="lire les mentions légales du site">Mentions légales</a><br />
 
-            <p class="mb-1 mt-4">Le Bock Trotter v. 0.3.5 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">Boitasite</a> - 2021</p>
+            <p class="mb-1 mt-4">Le Bock Trotter v. 0.4.347 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">Boitasite</a> - 2021</p>
 
         </div>
 
@@ -81,3 +81,12 @@
     </div>
   </div>
 </div>
+
+<!-- tarteaucitron.js -->
+
+<script type="text/javascript">
+tarteaucitron.user.matomoId = '7';
+(tarteaucitron.job = tarteaucitron.job || []).push('matomo');
+</script>
+
+<script>tarteaucitron.user.matomoHost = "//matomo.boitasite.com/";</script>

@@ -8,7 +8,7 @@
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Bibliographie · Le site d'un cervalobélophile</title>
-    <meta name="description" content="collection de sous-bocks et d'objets de brasserie dédiés à  ">
+    <meta name="description" content="Collection de sous-bocks et d'objets de brasserie dédiés à  ">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -26,8 +26,7 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
-
-    <!-- Matomo -->
+ 
     <?php include "include/matomo.inc.php"; ?>
 
 </head>

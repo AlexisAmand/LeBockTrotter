@@ -37,7 +37,7 @@ foreach ($iteratorAlbum as $fileinfoAlbum)
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
-    <meta name="description" content="collection de sous-bocks et d'objets de brasserie dédiés à  ">
+    <meta name="description" content="Site d'un collectionneur de sous-bocks, capsules, tapis de bar, décapsuleurs, ramasse-monnaies et autres objets de brasserie.">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -55,8 +55,7 @@ foreach ($iteratorAlbum as $fileinfoAlbum)
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
-
-    <!-- Matomo -->
+ 
     <?php include "include/matomo.inc.php"; ?>
 
 </head>

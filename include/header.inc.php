@@ -12,13 +12,6 @@
 
           <hr class="py-0 my-4 text-white me-5">
 
-        <h4 class="text-white">Angleterre</h4>
-          <ul class="list-unstyled">
-            <li><a href="/albums/wells-young's/index.php" class="text-white">Wells & Young's</a></li>
-          </ul>
-
-          <hr class="py-0 my-4 text-white me-5">
-
         <h4 class="text-white">Autriche</h4>
           <ul class="list-unstyled">
             <li><a href="/albums/schwechater/index.php" class="text-white">Schwechater (Brau Union)</a></li>
@@ -30,8 +23,6 @@
           <ul class="list-unstyled">
             <li><a href="/albums/abbaye-d'affligem/index.php" class="text-white">Abbaye d'Affligem</a></li>
             <li><a href="/albums/abbaye-de-cambron/index.php" class="text-white">Abbaye de Cambron</a></li>
-            <li><a href="/albums/abbaye-de-leffe/index.php" class="text-white">Abbaye de Leffe</a></li>
-            <li><a href="/albums/abbaye-de-maredsous/index.php" class="text-white">Abbaye de Maredsous</a></li>
             <li><a href="/albums/abbaye-de-westmalle/index.php" class="text-white">Abbaye de Westmalle</a></li>
             <li><a href="/albums/abbaye-notre-dame-de-scourmont/index.php" class="text-white">Abbaye ND de Scourmont</a></li>          
             <li><a href="/albums/alken-maes/index.php" class="text-white">Brasserie Alken-Maes</a></li>
@@ -51,14 +42,15 @@
             <li><a href="/albums/brasserie-haacht/index.php" class="text-white">Brasserie Haacht</a></li>
             <li><a href="/albums/brasserie-hoegaarden/index.php" class="text-white">Brasserie Hoegaarden</a></li>
             <li><a href="/albums/brasserie-huyghe/index.php" class="text-white">Brasserie Huyghe</a></li>
-            <li><a href="/albums/brasserie-jupiler/index.php" class="text-white">Brasserie Piedbœuf</a></li> 
             <li><a href="/albums/brasserie-lefebvre/index.php" class="text-white">Brasserie Lefebvre</a></li>
             <li><a href="/albums/brasserie-lindemans/index.php" class="text-white">Brasserie Lindemans</a></li>
             <li><a href="/albums/brasserie-lupulus/index.php" class="text-white">brasserie Lupulus</a></li>
             <li><a href="/albums/brasserie-duvel/index.php" class="text-white">Brasserie Moortgat</a></li> 
             <li><a href="/albums/brasserie-palm/index.php" class="text-white">Brasserie Palm</a></li>
+            <li><a href="/albums/brasserie-jupiler/index.php" class="text-white">Brasserie Piedbœuf</a></li> 
             <li><a href="/albums/brasserie saint-feuillien/index.php" class="text-white">Brasserie Saint-Feuillien</a></li>
             <li><a href="/albums/brasserie-van-honsebrouck/index.php" class="text-white">Brasserie Van Honsebrouck</a></li>
+            <li><a href="/albums/evenements-be/index.php" class="text-white">Evénements</a></li>
             <li><a href="/albums/john-martin/index.php" class="text-white">John Martin</a></li>
           </ul>
 
@@ -70,14 +62,7 @@
           </ul>
 
           <hr class="py-0 my-4 text-white me-5">
-        
-        <h4 class="text-white">Ecosse</h4>
-          <ul class="list-unstyled">
-            <li><a href="/albums/scottish-newcastle/index.php" class="text-white">Scottish & Newcastle Breweries Ltd</a></li>
-          </ul>
-
-          <hr class="py-0 my-4 text-white me-5">
-
+      
         <h4 class="text-white">Etats-Unis</h4>
           <ul class="list-unstyled">
             <li><a href="/albums/anchor-brewing-co/index.php" class="text-white">Anchor Brewing</a></li>
@@ -88,6 +73,7 @@
         <h4 class="text-white ">France</h4>
           <ul class="list-unstyled">
             <li><a href="/albums/les-3-brasseurs/index.php" class="text-white">3 brasseurs (Les)</a></li>
+            <li><a href="/albums/bars-fr/index.php" class="text-white">Bars et Restaurants</a></li>         
             <li><a href="/albums/brasserie-amos/index.php" class="text-white">Brasserie Amos</a></li>
             <li><a href="/albums/brasserie-castelain/index.php" class="text-white">Brasserie Castelain</a></li>            
             <li><a href="/albums/brasserie-des-2-caps/index.php" class="text-white">Brasserie des 2 caps</a></li>
@@ -101,9 +87,11 @@
             <li><a href="/albums/brasserie-licorne/index.php" class="text-white">Brasserie Licorne</a></li>
             <li><a href="/albums/brasserie-de-saint-omer/index.php" class="text-white">Brasserie Saint-Omer</a></li>     
             <li><a href="/albums/moet-hennessy/index.php" class="text-white">Moët Hennessy</a></li> 
-            <li><a href="/albums/orangina-suntory-france/index.php" class="text-white">Orangina Suntory France </a></li>              
-                          
+            <li><a href="/albums/orangina-suntory-france/index.php" class="text-white">Orangina Suntory France </a></li>       
+            <li><a href="/albums/pmu/index.php" class="text-white">PMU</a></li>                                
           </ul>
+
+          <hr class="py-0 my-4 text-white me-5">
 
         <h4 class="text-white">Irlande</h4>
           <ul class="list-unstyled">
@@ -124,19 +112,18 @@
 
           <hr class="py-0 my-4 text-white me-5">
 
-        <h4 class="text-white">Royaume-Uni</h4>
+        <h4 class="text-white">Kenya</h4>
           <ul class="list-unstyled">
-            <li><a href="/albums/benson-hedges/index.php" class="text-white">Benson & Hedges</a></li>
+            <li><a href="/albums/bars-kn/index.php" class="text-white">Bars et Restaurants</a></li>
           </ul>
 
           <hr class="py-0 my-4 text-white me-5">
-          
 
-        <h4 class="text-white">Divers</h4>
+        <h4 class="text-white">Royaume-Uni</h4>
           <ul class="list-unstyled">
-            <li><a href="/albums/bars/index.php" class="text-white">Bars et Restaurants</a></li>
-            <li><a href="/albums/evenements/index.php" class="text-white">Evénements</a></li>
-            <li><a href="/albums/pmu/index.php" class="text-white">PMU</a></li>
+            <li><a href="/albums/benson-hedges/index.php" class="text-white">Benson & Hedges</a></li>
+            <li><a href="/albums/wells-young's/index.php" class="text-white">Wells & Young's</a></li>
+            <li><a href="/albums/scottish-newcastle/index.php" class="text-white">Scottish & Newcastle Breweries Ltd</a></li>
           </ul>
 
         </div>
