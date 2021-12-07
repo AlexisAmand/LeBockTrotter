@@ -25,14 +25,13 @@
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-     
+
     <!-- CSS de Fancybox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-    
     <?php include "./include/matomo.inc.php"; ?>
 
 </head>
@@ -45,7 +44,7 @@
 
   <section class="py-5 text-center container">
 
-    <div class="row py-lg-5">
+    <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
             <?php
 
@@ -56,7 +55,7 @@
                 echo 'Je vous répondrai le plus vite possible</p>';
 
                 // Destinataire du message
-                $to  = 'alexis.amand@gmail.com, '.$_POST['courriel'];
+                $to  = 'alexis.amand@boitasite.com, '.$_POST['courriel'];
 
                 // Sujet du message à envoyer
                 $subject = 'Le Bock Trotter';
@@ -69,10 +68,10 @@
                 // En-tête du message
                 $headers = 'MIME-Version: 1.0'."\n";
                 $headers .= 'Content-type: text/html; charset=utf-8'."\n";
-                $headers .='From: "Message de Histoires de Poilus"<'.$_POST['courriel'].'>'."\n";
+                $headers .='From: "Message du Bock Trotter"<'.$_POST['courriel'].'>'."\n";
 
                 $envoyer = mail($to, $subject, $message, $headers);
-                
+
                 if (!$envoyer)
                     {
                     echo '<p class="alert alert-warning" role="alert">erreur !</p>';
@@ -86,7 +85,7 @@
             ?>
 
             <script>
-              document.location.href="http://lebocktrotter.test"; 
+              document.location.href="http://lebocktrotter.test";
             </script>
 
             <?php
@@ -103,11 +102,7 @@
 <?php include "./include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

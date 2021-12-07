@@ -9,7 +9,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter · Brasserie Jupiler</title>
+    <title>Le Bock Trotter · Brasserie Piedbœuf</title>
     <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à la Brasserie Jupiler">
 
     <!-- Bootstrap core CSS -->
@@ -25,30 +25,30 @@
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-     
+
     <!-- CSS de Fancybox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>
-                                                                                                                                                                                           
+
 <body class="d-flex flex-column h-100">
-    
+
 <?php include "../../include/header.inc.php"; ?>
 
 <main class="flex-shrink-0">
 
   <section class="py-2 text-center container">
 
-    <div class="row py-lg-5">
+    <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Brasserie Jupiler</h1>
-        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
+        <h1 class="fw-light mb-5">Brasserie Piedbœuf</h1>
+        <p class="lead text-muted">En 1812, l'entreprise débute en fabriquant du matériel de brasserie. C’est en 1853 que Jean-Théodore Piedbœuf se lance dans le brassage de bières dans une brasserie située à Jupille-sur-Meuse en rive droite de la Meuse. L'entreprise prend le nom de brasserie Piedbœuf. Elle devient brasserie Jupiler en 1992.</p>
       </div>
     </div>
 

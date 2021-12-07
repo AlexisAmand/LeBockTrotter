@@ -31,8 +31,7 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>
@@ -45,10 +44,10 @@
 
   <section class="py-2 text-center container">
 
-    <div class="row py-lg-5">
+    <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Anchor Brewing Co.</h1>
-        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
+        <h1 class="fw-light mb-5">Anchor Brewing Co.</h1>
+        <p class="lead text-muted"><a href="https://www.anchorbrewing.com/" title=" " target="_blank">Anchor Brewing Company</a> fondée en 1896 et basée à San Francisco, en Californie. la brasserie fut rachetée en 1965 par son propriétaire actuel, Fritz Maytag, qui la déplaça à son adresse actuelle en 1979.</p>
       </div>
     </div>
 
@@ -66,6 +65,7 @@
       ?>
 
       </div>
+      
     </div>
   </div>
 

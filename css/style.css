@@ -9,7 +9,7 @@
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
-    }    
+    }
 
     .colonnes {
       column-count: 3;
@@ -37,6 +37,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.lead a:hover {
+text-decoration: underline solid #64462e 1px;
+color: #64462e;
+}
+
 /* -------------------- */
 /* Colonisation du menu */
 /* -------------------- */
@@ -61,7 +66,7 @@ a:hover {
 /* Menu */
 /* ---- */
 
-header{
+header {
   background-color:#64462e;
 }
 
@@ -79,7 +84,7 @@ h4::first-letter {
   text-decoration: none;
 }
 
-/* ------------ */ 
+/* ------------ */
 /* Pied de page */
 /* ------------ */
 
@@ -128,7 +133,22 @@ footer a:hover {
 /* Modale pour msg */
 /* --------------- */
 
-.btn {
+.modal-content {
+	background-color:#fcf8ec;
+}
+
+.modal-title {
+	font-weight: 300!important;
+}
+
+.btn-primary {
+  Background-color:#64462e;
+  color: #b5cb31;
+  border-color: #b5cb31;
+}
+
+.btn-primary:hover {
   Background-color:#64462e;
   color:#fcf8ec;
+  border-color: #fcf8ec;
 }
