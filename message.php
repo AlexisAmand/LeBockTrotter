@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Unkempt&display=swap" rel="stylesheet">
 
     <!-- CSS perso -->
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/style.min.css" rel="stylesheet">
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
@@ -81,7 +81,7 @@
                 }
             else
                 {
-                /* redirection vers index.php */
+                /* redirection vers index.php si on arrive ici alors qu'on a pas envoyé de message */
             ?>
 
             <script>
