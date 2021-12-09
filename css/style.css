@@ -42,6 +42,22 @@ text-decoration: underline solid #64462e 1px;
 color: #64462e;
 }
 
+section a:link {
+  text-decoration: underline solid #64462e 1px;
+  color: #64462e!important;
+}
+
+section a:visited {
+  text-decoration: underline solid #64462e 1px;
+  color: #64462e!important;
+}
+
+section a:hover {
+  text-decoration: none;
+  text-decoration-color:6c757d;
+  color: #64462e!important;
+}
+
 /* -------------------- */
 /* Colonisation du menu */
 /* -------------------- */

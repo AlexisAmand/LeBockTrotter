@@ -47,7 +47,7 @@
         {$dateEnCours = "2021";}
       ?>
 
-      <p class="mb-1 mt-4">Le Bock Trotter v. 0.5 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">
+      <p class="mb-1 mt-4">Le Bock Trotter v. 0.5.4 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">
       Boitasite</a> - <?php echo $dateEnCours; ?></p>
 
       </div>

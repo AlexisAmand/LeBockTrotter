@@ -1,4 +1,4 @@
-ErrorDocument 404 http://lebocktrotter.test/index.php
+ErrorDocument 404 https://lebocktrotter.boitasite.com/index.php
 
 <IfModule mod_expires.c>
     ExpiresActive on
