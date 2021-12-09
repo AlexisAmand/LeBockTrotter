@@ -12,7 +12,8 @@
 
             <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" title="Contacter le webmaster du site Le Bock Trotter">Me contacter</a><br />
             <a href="/biblio.php" title="Selection de livres sur les bières et les brasseries">Bibliographie</a><br />
-            <a href="https://sousbocks.blogspot.com/" title="Mon ancien site sur les sous-bocks">Mon ancien blog</a><br />
+            <a href="/index.php#definition1" title="définition du mot sous-bock">C'est quoi un sous-bock ?</a><br />
+            <a href="/index.php#definition2" title="définition du mot cervalobélophilie">C'est quoi la cerbalo... ?</a><br />
             <a href="/mentions-legales.php" title="lire les mentions légales du site">Mentions légales</a><br />
 
         </div>
@@ -40,14 +41,13 @@
       <div class="col-12 text-center mt-4">
 
       <?php
-      $dateEnCours = date('Y');
-      if($dateEnCours != '2021')
+      if(date('Y') != '2021')
         {$dateEnCours = "2021-".date('Y');}
       else
         {$dateEnCours = "2021";}
       ?>
 
-      <p class="mb-1 mt-4">Le Bock Trotter v. 0.4.347 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">
+      <p class="mb-1 mt-4">Le Bock Trotter v. 0.5 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">
       Boitasite</a> - <?php echo $dateEnCours; ?></p>
 
       </div>

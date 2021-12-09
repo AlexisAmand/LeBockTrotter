@@ -47,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Abbaye de Cambron</h1>
-        <p class="lead text-muted">L'abbaye de Cambron (son nom d’origine étant Abbaye Notre-Dame de Cambron) était un monastère de moines cisterciens fondé en 1148 à Cambron-Casteau, en Belgique. Aujourd'hui, le site, composé de remarquables allées de hêtres, de tilleuls et de platanes, est entièrement exploité par la SA Parc Paradisio sous l'appellation <a href="https://www.pairidaiza.eu/fr/activites/la-brasserie" title=" " target="_blank">Pairi Daiza</a>. Quatre bières d'abbaye y sont produites.</p>
+        <p class="lead text-muted">L'abbaye de Cambron (son nom d’origine étant Abbaye Notre-Dame de Cambron) était un monastère de moines cisterciens fondé en 1148 à Cambron-Casteau, en Belgique. Aujourd'hui, le site, composé de remarquables allées de hêtres, de tilleuls et de platanes, est entièrement exploité par la SA Parc Paradisio sous l'appellation <a href="https://www.pairidaiza.eu/fr/activites/la-brasserie" title="site web officiel de la brasserie Cambron" target="_blank">Pairi Daiza</a>. Quatre bières d'abbaye y sont produites.</p>
       </div>
     </div>
 
@@ -56,15 +56,8 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
-
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
+      <?php afficheCollection(); ?>
+      
     </div>
   </div>
 
@@ -74,11 +67,7 @@
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

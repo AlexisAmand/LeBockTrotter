@@ -9,8 +9,8 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
-    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à  ">
+    <title>Le Bock Trotter · Les 3 Brasseurs</title>
+    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés aux 3 Brasseurs  ">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -48,7 +48,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Les 3 Brasseurs</h1>
-        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
+        <p class="lead text-muted">Les 3 Brasseurs est une entreprise de restauration française spécialisée dans la microbrasserie et qui fabrique sur place sa propre bière du même nom. La première brasserie a été ouverte à Lille, dans le Nord, en 1986 sur l'emplacement du café Le Grand Chagnot.</p>
       </div>
     </div>
 
@@ -57,15 +57,7 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
-
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
+      <?php afficheCollection(); ?>
     </div>
   </div>
 
@@ -75,11 +67,7 @@
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

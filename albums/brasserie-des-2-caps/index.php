@@ -9,7 +9,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
+    <title>Le Bock Trotter · La brasserie des 2 caps</title>
     <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à la Brasserie des 2 caps">
 
     <!-- Bootstrap core CSS -->
@@ -57,15 +57,7 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
-
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
+      <?php afficheCollection(); ?>
     </div>
   </div>
 
@@ -75,11 +67,7 @@
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

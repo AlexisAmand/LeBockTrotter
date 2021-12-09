@@ -48,7 +48,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Abbaye Notre-Dame de Scourmont</h1>
-        <p class="lead text-muted">L'<a href="https://chimay.com/" title=" " target="_blank">Abbaye Notre-Dame de Scourmont</a> est située à Forges-les-Chimay. Le brassage de bière par les moines commence en 1861 et devient trappiste sous l'influence du Père Théodore, qui avait étudié la brassiculture à Louvain.</p>
+        <p class="lead text-muted">L'<a href="https://chimay.com/" title="site web officiel d'Abbaye Notre Dame de Scourmont" target="_blank">Abbaye Notre-Dame de Scourmont</a> est située à Forges-les-Chimay. Le brassage de bière par les moines commence en 1861 et devient trappiste sous l'influence du Père Théodore, qui avait étudié la brassiculture à Louvain.</p>
       </div>
     </div>
 
@@ -57,15 +57,8 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
-
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
+      <?php afficheCollection(); ?>
+      
     </div>
   </div>
 
@@ -77,9 +70,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

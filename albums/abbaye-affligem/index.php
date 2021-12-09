@@ -47,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Abbaye d'Affligem</h1>
-        <p class="lead text-muted">En 1074, six chevaliers brigands décidèrent de déposer les armes pour se consacrer aux autres. Il décident de fonder une abbaye : l'<a href="https://www.affligembeer.com/fr/fr/notre-abbaye" title=" " target="_blank">Abbaye d'Affligem.</a></p>
+        <p class="lead text-muted">En 1074, six chevaliers brigands décidèrent de déposer les armes pour se consacrer aux autres. Il décident de fonder une abbaye : l'<a href="https://www.affligembeer.com/fr/fr/notre-abbaye" title="site web officiel de l'Abbaye d'Affligem" target="_blank">Abbaye d'Affligem.</a></p>
       </div>
     </div>
 
@@ -56,15 +56,8 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
+      <?php afficheCollection();  ?>
 
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
     </div>
   </div>
 
@@ -74,11 +67,7 @@
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

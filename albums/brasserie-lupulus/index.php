@@ -9,7 +9,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
-    <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
+    <title>Le Bock Trotter · La Brasserie Lupulus</title>
     <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à la Brasserie Lupulus">
 
     <!-- Bootstrap core CSS -->
@@ -47,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Brasserie Lupulus</h1>
-        <p class="lead text-muted">C'est en 2007 que Pierre Gobron, l'un des créateurs de la bière la Chouffe dont la brasserie (brasserie d'Achouffe) a été cédée au groupe brassicole Duvel Moortgat, décide de brasser une nouvelle bière en bouteilles champenoises (75 cl) mais également en fûts. La <a href="https://www.lupulus.be/" title=" " target="_blank">Brasserie Lupulus</a> (anciennement appelée Brasserie Les Trois Fourquets) est une brasserie familiale située à Courtil (Belgique).</p>
+        <p class="lead text-muted">C'est en 2007 que Pierre Gobron, l'un des créateurs de la bière la Chouffe dont la brasserie (brasserie d'Achouffe) a été cédée au groupe brassicole Duvel Moortgat, décide de brasser une nouvelle bière en bouteilles champenoises (75 cl) mais également en fûts. La <a href="https://www.lupulus.be/" title="site web offciel de la brasserie Lupulus" target="_blank">Brasserie Lupulus</a> (anciennement appelée Brasserie Les Trois Fourquets) est une brasserie familiale située à Courtil (Belgique).</p>
       </div>
     </div>
 
@@ -56,15 +56,7 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
-
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
+      <?php afficheCollection(); ?>
     </div>
   </div>
 
@@ -74,11 +66,7 @@
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

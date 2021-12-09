@@ -47,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Anchor Brewing Co.</h1>
-        <p class="lead text-muted"><a href="https://www.anchorbrewing.com/" title=" " target="_blank">Anchor Brewing Company</a> fondée en 1896 et basée à San Francisco, en Californie. la brasserie fut rachetée en 1965 par son propriétaire actuel, Fritz Maytag, qui la déplaça à son adresse actuelle en 1979.</p>
+        <p class="lead text-muted"><a href="https://www.anchorbrewing.com/" title="Site web officiel de la Anchor Brewing Compagny" target="_blank">Anchor Brewing Company</a> fondée en 1896 et basée à San Francisco, en Californie. la brasserie fut rachetée en 1965 par son propriétaire actuel, Fritz Maytag, qui la déplaça à son adresse actuelle en 1979.</p>
       </div>
     </div>
 
@@ -56,15 +56,7 @@
   <div class="album py-5">
     <div class="container">
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 align-items-stretch">
-
-      <?php
-
-      afficheCollection();
-
-      ?>
-
-      </div>
+      <?php afficheCollection(); ?>
       
     </div>
   </div>
@@ -75,11 +67,7 @@
 <?php include "../../include/footer.inc.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script>
-    //  JavaScript will go here
-</script>
 
 </body>
 </html>

@@ -45,15 +45,15 @@
 
         <h1 class="fw-light mb-5">Bibliographie</h1>
 
-        <p class="lead text-muted"><a href="https://amzn.to/3o594pqL" title=" " style="color: #64462e;">
+        <p class="lead text-muted"><a href="https://amzn.to/3o594pqL" title="acheter Le petit livre des bières aux éditions Prisma" style="color: #64462e;">
         Le petit livre des bières</a><br />
         <span class="fs-6">(Collectif - Editions Prisma - 2014)</span></p>
 
-        <p class="lead text-muted"><a href="https://amzn.to/314EjrP" title=" " style="color: #64462e">
+        <p class="lead text-muted"><a href="https://amzn.to/314EjrP" title="acheter de livre Brasseurs et bières en Nord de Grégoire Szczesniak" style="color: #64462e">
         Brasseurs et bières en Nord</a><br />
         <span class="fs-6">(Grégoire Szczesniak - Laura Ed. - 1996)</span></p>
 
-        <p class="lead text-muted"><a href="https://amzn.to/3pFw79U" title=" " style="color: #64462e">
+        <p class="lead text-muted"><a href="https://amzn.to/3pFw79U" title="acheter le livre Les sous-bocks de Catherine Soulingeas" style="color: #64462e">
         Les sous-bocks</a><br />
         <span class="fs-6">(Catherine Soulingeas - Syros Alternatives - 1993)</span></p>
 

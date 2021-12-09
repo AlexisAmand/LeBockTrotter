@@ -46,16 +46,16 @@
         <h1 class="fw-light mb-5">Mentions légales</h1>
 
         <h4 class="fw-light mt-5"> Editeur du site</h4>
-        <p class="lead text-muted fs-6"><a href="http://www.genealexis.fr" title=" " style="color: #64462e">
+        <p class="lead text-muted fs-6"><a href="http://www.genealexis.fr" title="Généalexis : Généalogie et histoire locale" style="color: #64462e">
         Alexis AMAND</a><br />Saint-Saulve (Nord)</p>
 
         <h4 class="fw-light mt-5">Création du site</h4>
-        <p class="lead text-muted fs-6"><a href="https://www.boitasite.com" title=" " style="color: #64462e">
+        <p class="lead text-muted fs-6"><a href="https://www.boitasite.com" title="Création et référencement de sites web" style="color: #64462e">
         Boitasite</a><br />Valenciennes (Nord)<br />
         SIRET : 517 501 235 000 17</p>
 
         <h4 class="fw-light mt-5">Hébergeur du site</h4>
-        <p class="lead text-muted fs-6"><a href="https://www.amen.fr" title=" " style="color: #64462e">
+        <p class="lead text-muted fs-6"><a href="https://www.amen.fr" title="Hébergement Linux et Windows, nom de domaine" style="color: #64462e">
         AMEN SASU</a><br />12-14, Rond Point des Champs Elysées 75008 Paris.<br />
         RCS : 421 527 797 000 11</p>
 
