@@ -24,13 +24,13 @@
 
             <hr class="py-0 my-4 text-white ms-5">
 
-            <a href="https://www.facebook.com/LeBockTrotter/" title="Le Bock Trotter sur Facebook">
+            <a href="https://www.facebook.com/LeBockTrotter/" title="Le Bock Trotter sur Facebook" target="_blank">
             <i class="bi bi-facebook fs-2 mx-2"></i></a>
-            <a href="https://twitter.com/alexisamand/" title="Compte Twitter du webmaster">
+            <a href="https://twitter.com/alexisamand/" title="Compte Twitter du webmaster" target="_blank">
             <i class="bi bi-twitter fs-2 mx-2"></i></a>
-            <a href="https://www.instagram.com/alexisamand/" title="Compte Instagram du webmaster">
+            <a href="https://www.instagram.com/alexisamand/" title="Compte Instagram du webmaster" target="_blank">
             <i class="bi bi-instagram fs-2 mx-2"></i></a>
-            <a href="https://www.youtube.com/playlist?list=PLBwJ04KFkQil34mLL973aqii5KkIhqEnu" title="Le Bock Trotter sur Youtube">
+            <a href="https://www.youtube.com/playlist?list=PLBwJ04KFkQil34mLL973aqii5KkIhqEnu" title="Le Bock Trotter sur Youtube" target="_blank">
             <i class="bi bi-youtube fs-2 mx-2"></i></a>
 
         </div>
@@ -47,7 +47,7 @@
         {$dateEnCours = "2021";}
       ?>
 
-      <p class="mb-1 mt-4">Le Bock Trotter v. 0.5.4 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web">
+      <p class="mb-1 mt-4">Le Bock Trotter v. 0.5.11 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web" target="_blank">
       Boitasite</a> - <?php echo $dateEnCours; ?></p>
 
       </div>

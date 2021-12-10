@@ -32,7 +32,6 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>
@@ -48,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Saint-Francis Abbey</h1>
-        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
+        <p class="lead text-muted">La Kilkenny est brassée dans la plus vieille brasserie d'Irlande, la St. Francis Abbey depuis 1710. Elle fait l’objet d’un jeu de mot mondialement connu : la série South Park aurait utilisé la célèbre phrase « Ils ont tués Kenny » (« They Killed Kenny ») en référence à la bière.</p>
       </div>
     </div>
 
@@ -58,6 +57,7 @@
     <div class="container">
 
       <?php afficheCollection(); ?>
+      
     </div>
   </div>
 

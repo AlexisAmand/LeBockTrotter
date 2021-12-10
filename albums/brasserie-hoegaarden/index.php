@@ -48,7 +48,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Brasserie Hoegaarden</h1>
-        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
+        <p class="lead text-muted">La Hoegaarden est une bière blanche originaire de Hoegaarden en Belgique. Elle est disponible dans plus de 70 pays. C'est une marque du groupe AB InBev, le plus gros brasseur du monde. Elle est produite à la Brasserie Hoegaarden (ex Brasserie De Kluis).</p>
       </div>
     </div>
 

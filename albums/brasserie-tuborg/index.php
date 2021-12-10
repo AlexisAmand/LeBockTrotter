@@ -48,7 +48,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Brasserie Tuborg</h1>
-        <p class="lead text-muted">&nbsp;&nbsp;&nbsp;</p>
+        <p class="lead text-muted">Tuborg est une brasserie et une marque de bière danoise fondée en 1875 par Carl Frederik Tietgen a Hellerup, une banlieue nord de Copenhague.Depuis 1970, elle fait partie de Carlsberg.</p>
       </div>
     </div>
 
