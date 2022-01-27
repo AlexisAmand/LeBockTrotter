@@ -6,11 +6,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Alexis AMAND and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Bars et Restaurants</title>
-    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés aux bars et aux restaurants">
+    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie liés aux bars et aux restaurants situés en Kenya">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -31,8 +31,7 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png" />
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>
@@ -48,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Bars et Restos</h1>
-        <p class="lead text-muted">Au kenya</p>
+        <p class="lead text-muted">- Établissements situés au Kenya -</p>
       </div>
     </div>
 

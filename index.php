@@ -5,11 +5,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Alexis AMAND and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Le site d'un cervalobélophile</title>
-    <meta name="description" content="Site d'un collectionneur de sous-bocks, capsules, tapis de bar, décapsuleurs, ramasse-monnaies et autres objets de brasserie.">
+    <meta name="description" content="Ce site vous présente ma collection d'objets de brasserie. Venez-découvrir un monde rempli de sous-bocks, capsules, tapis de bar, décapsuleurs, ramasse-monnaies et autres objets.">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">

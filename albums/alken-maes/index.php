@@ -6,11 +6,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Alexis AMAND and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Brasserie Aken Maes</title>
-    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à la brasserie Alken Maes">
+    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie liés à la brasserie Alken Maes">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -35,7 +35,7 @@
     <?php include "../../include/matomo.inc.php"; ?>
 
 </head>
-                                                                                                                                                                                           
+                                                       
 <body class="d-flex flex-column h-100">
     
 <?php include "../../include/header.inc.php"; ?>
@@ -47,7 +47,7 @@
     <div class="row py-2 py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light mb-5">Alken Maes</h1>
-        <p class="lead text-muted">Alken-Maes est une entreprise brassicole belge créée en 1988 lors de la fusion des brasseries Maes et Alken.</p>
+        <p class="lead text-muted">Alken-Maes est une entreprise brassicole belge créée en 1988 lors de la fusion des brasseries Maes et Alken. Elle fait aujourd'hui partie du groupe <a href="../heineken/index.php" title="Sous-bock de la brasserie Heineken">Heineken</a></p>
       </div>
     </div>
 

@@ -6,11 +6,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Alexis AMAND and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
 
     <title>Le Bock Trotter · Brasserie d'Orval</title>
-    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie dédiés à Brasserie d'Orval">
+    <meta name="description" content="Le site d'un cervalobélophile. Collection de sous-bocks et d'objets de brasserie liés à Brasserie d'Orval">
     
 
     <!-- Bootstrap core CSS -->

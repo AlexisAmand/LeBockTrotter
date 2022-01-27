@@ -18,7 +18,7 @@
 
         </div>
 
-        <div class="col-12 col-md-5 text-end mt-5 mt-md-0">
+        <div class="col-12 col-md-5 text-end mt-5 mt-md-0 test">
 
             <h4>Me suivre</h4>
 
@@ -40,15 +40,8 @@
     <div class="row">
       <div class="col-12 text-center mt-4">
 
-      <?php
-      if(date('Y') != '2021')
-        {$dateEnCours = "2021-".date('Y');}
-      else
-        {$dateEnCours = "2021";}
-      ?>
-
       <p class="mb-1 mt-4">Le Bock Trotter v. 0.5.11 &copy; <a href="https://www.boitasite.com" title="Agence de création et de référencement de site web" target="_blank">
-      Boitasite</a> - <?php echo $dateEnCours; ?></p>
+      Boitasite</a> - <?php echo dateFooter(); ?></p>
 
       </div>
     </div>

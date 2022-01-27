@@ -1,6 +1,6 @@
 <?php
 
-/* Cette fonction parcourt le dossier parent pour afficher les images qu'il contient sous la forme d'une galerie */
+/* Fonction qui parcourt le dossier parent pour afficher les images qu'il contient sous la forme d'une galerie */
 
 function afficheCollection()
     {
@@ -60,6 +60,7 @@ function afficheCollection()
             ?>
 
             <div class="col">
+
                 <div class="card shadow-sm" style="<?php echo 'transform: rotate('.$input[$rand_keys].');' ?>">
                 <a href="<?php echo $value; ?>" data-fancybox="gallery" data-caption="<?php echo ucwords($nomDuFichier); ?>">
                 <img src="thumbs/<?php echo $value; ?>" class="card-img-top" alt="photo du sous-bock <?php echo $nomDuFichier; ?>"></a>
@@ -67,6 +68,7 @@ function afficheCollection()
                     <p class="card-text text-center"><?php echo $nomDuFichier ; ?></p>
                 </div>
                 </div>
+
             </div>
 
             <?php
@@ -79,7 +81,7 @@ function afficheCollection()
     
     }
     
-/* On compte de nombres d'images envoyées dans les albums pour l'afficher tout à l'heure */
+/* Fonction qui compte de nombres d'images envoyées dans les albums pour l'afficher tout à l'heure */
 
 function countImages()
     {
@@ -108,4 +110,17 @@ function countImages()
 
     return $countImage;
     }
-    
+
+/* Fonction qui affiche de la date dans le footer */
+
+function dateFooter()
+    {
+    if(date('Y') != '2021')
+        {
+        return "2021-".date('Y');
+        }
+    else
+        {
+        return "2021";
+        }
+    }
